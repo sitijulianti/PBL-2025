@@ -1,9 +1,32 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
+h1{
+    background-color: yellow;
+    color: navy;
+    text-align: center;
+}
 h2{
     color: navy;
+    margin-top: 40px;
 }
 td{
     color: navy;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+table{
+    margin-bottom: 40px;
+}
+ul{
+    margin-bottom: 40px;
+    color: navy;
+    padding: 5px;
 }
