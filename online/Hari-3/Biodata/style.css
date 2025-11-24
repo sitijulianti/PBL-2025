@@ -1,0 +1,132 @@
+body{
+    background-color: #f4f4f4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    padding: 40px;
+    display: grid;
+}
+
+.detail {
+    width: 800px;
+    padding: 50px;
+    border-collapse: collapse;
+}
+
+.detail th{
+    background-color: rgb(71, 194, 222);
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    
+    
+}
+
+.detail td {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.kiri {
+    float: left;
+}
+
+.kanan {
+    float: right;
+}
+
+
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(71, 194, 222);
+}
+
+.footer li{
+    color: black;
+    border-radius: 20px;
+    width: 800px;
+    height: 70px;
+    padding: 0px ;
+    text-align: center;
+    display: inline;
+}
+
+
+.kotak-1{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    width: 800px;
+    padding: 30px ;
+    margin-top: 0px;
+    border: 1px solid black;
+    
+}
+
+.kotak-2{
+    background-color: rgb(71, 194, 222);
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+    
+}
+
+.kotak-3 {
+    display: flex;
+}
+
+.section{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+p{
+    color: black;
+}
+
+
+.navigasi li{
+    margin: 35px;
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navigasi a {
+    color: black;
+}
+
+.navigasi a:hover{
+    color: navy;
+}
+
+.box{
+    background-color: rgb(71, 194, 222);
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    padding: 10px ;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(71, 194, 222);
+}
+
+
+
+
+
+

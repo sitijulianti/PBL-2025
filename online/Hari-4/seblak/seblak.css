@@ -1,0 +1,169 @@
+body{
+    background-color: #f4f4f4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.header{
+    background-color: #ed4708;
+    width: 100%;
+    position: fixed;
+}
+
+.judul img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.judul p {
+    float: right;
+    color: white;
+    margin: 10px;
+    font-size: 26px;
+}
+
+.judul {
+    float: left;
+}
+
+
+
+.navigasi {
+    float: right;
+}
+
+.navigasi li {
+    display: inline;
+    margin: 20px;
+    color: white;
+}
+
+.navigasi a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigasi a:hover {
+    color: orange;
+}
+
+.promo {
+    background-color: #FED16A;
+    width: 100%;
+    display: flex;
+    margin-top: 51px;
+
+}
+
+.gambar {
+    flex: 1;
+    text-align: right;
+}
+
+.gambar img {
+    width: 200px;
+    height: auto;
+}
+
+.tulisan {
+   flex: 1;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.isi {
+    background-color: #FFE797;
+    width: 100%;
+}
+
+.isi h1 {
+    text-align: center;
+    margin-top: 50px;
+    
+
+}
+
+.menu {
+    display: flex;
+    background-color: #FFE797;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    
+}
+
+.menu img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.menu-1 {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+
+.menu-2 {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.menu-3 {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.tentang {
+    background-color: #FFE797;
+    width: 100%;
+    
+}
+
+.tentang p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.tentang h1 {
+    text-align: center;
+}
+
+.kontak {
+    background-color: #ed4708;
+    width: 100%;
+    text-align: center;
+}
+
+.kontak h1{
+    color: white;
+    text-align: center;
+}
+
+.kontak p {
+    color: white;
+    font-size: 24px;
+    display: inline;
+    text-align: center;
+    
+}
+
